@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: ;
+}
+.navbar{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    align-items: center;
+   
+}
+
+.logo{
+    background-image: url(logo.png);
+    background-size:cover;
+    height: 42px;
+    width: 152px;
+}
+.headerimg{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(nebg.jpg);
+    background-size: cover;
+    width: 1012.67;
+    height: 700px;
+    background-color: #00000066;
+}
+.s1{
+    color: white;
+    font-size: 1rem;
+    font-weight: 10px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 122.67px;
+    height: 32px;
+    background:transparent;
+    border: 1px solid #fff;
+    margin-left: 25px;
+}
+.s2{
+    color: white;
+    font-size: 1rem;
+    font-weight: 10px;
+    background-color: #db0001;
+    border: 0px;
+    outline: 0px;
+    text-align: center;
+    width: 75.99px;
+    height: 32px;
+    margin-left: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.s2:hover{
+    background-color: rgba(255, 0, 0, 0.644);
+}
+.content1{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   text-align: center;
+   transform: translate(-50%,-50%);
+   margin-top: 100px;
+}
+.content1 h1{
+    font-size: 55px;
+    line-height: 65px;
+    font-weight: 700;
+    max-width: 650px;
+}
+.content1 h3{
+    font-weight: 350px;
+    margin: 22px;
+}
+.content1 p{
+    font-weight: 10px;
+    margin: 5px;
+}
+.email-sign input{
+    width: 374.35px;
+    height: 56px;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    background:transparent;
+    border: 1px solid #fff;
+    margin-left: 25px;
+    border-radius: 4px;
+}
+.email-sign button{
+    border: 0px;
+    outline: 0px;
+    background-color: #db0001;
+    color: #fff;
+    width: 203px;
+    height: 56px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.email-sign button:hover{
+    background-color: rgba(255, 0, 0, 0.644);
+}
+.content2{
+    border-top: 10px solid #808080a3;
+    width: 1012.67;
+    height: 499px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px;
+}
+.text{
+    color: white;
+    flex-wrap: wrap;
+}
+.img{
+    background-image: url(feature-1.png);
+    width: 668px;
+    height: 499px;
+    background-size: cover;
+
+}
+.text h1{
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 5px;
+    padding: 20px;
+}
+.text h3{
+    padding: 5px;
+    font-weight: 700;
+    max-width: 100;
+}
+
+
+/* cntent3.................. */
+.content3{
+    border-top: 10px solid #808080a3;
+    width: 1012.67;
+    height: 499px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px;
+}
+.text2{
+    color: white;
+    margin-left: 35px;
+}
+.img2{
+    background-image: url(feature-2.png);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+}
+.text2 h1{
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 5px;
+    padding: 20px;
+}
+.text2 h3{
+    padding: 5px;
+    font-weight: 700;
+    max-width: 100;
+}
+
+
+/* ......content 4............. */
+.content4{
+    border-top: 10px solid #808080a3;
+    width: 1012.67;
+    height: 499px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px;
+}
+.text4{
+    color: white;
+    flex-wrap: wrap;
+}
+.img4{
+    background-image: url(feature-3.png);
+    width: 668px;
+    height: 499px;
+    background-size: cover;
+
+}
+.text4 h1{
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 5px;
+    padding: 20px;
+}
+.text4 h3{
+    padding: 5px;
+    font-weight: 700;
+    max-width: 100;
+}
+
+/* ...........content-5..... */
+.content5{
+    border-top: 10px solid #808080a3;
+    width: 1012.67;
+    height: 499px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px;
+}
+.text5{
+    color: white;
+    margin-left: 35px;
+}
+.img5{
+    background-image: url(feature-4.png);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+}
+.text5 h1{
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 5px;
+    padding: 20px;
+}
+.text5 h3{
+    padding: 5px;
+    font-weight: 700;
+    max-width: 100;
+}
+
+/* .........qss...... */
+.qs{
+    color: white;
+    width: 1012.67;
+    height: 1100.67px;
+    background-color: black;
+    border-top: 10px solid #808080a3;
+}
+.qs h1{
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 5px;
+    padding: 20px;
+    color: white;
+    margin-top: 35px;
+    text-align: center;
+}
+.hehe{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+.hehe li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.hehe li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+label::after{
+    content:'+';
+    font-size: 34px;
+    right: 20px;
+    position: absolute;
+    transition: transform 0.5s;
+}
+input[type="radio"]{
+    display: none;
+}
+.hehe .content{
+    background: #303030;
+    overflow: hidden;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    transition: max-height 0.5s,padding 0.5s;
+}
+.hehe input[type="radio"]:checked+ label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.hehe input[type="radio"]:checked+ label::after{
+    transform: rotate(135deg);
+}
+.texts{
+    text-align: center;
+    padding: 20px;
+}
+.below-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* ......last part....... */
+.contact{
+    border-top: 10px solid #808080a3;
+    width: 1012.67;
+    height: 499px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact .panel1 a{
+    display: block;
+    color: white;
+    font-size: 1rem;
+    margin-top: 20px;
+   
+    
+}
+.contact .panel2 a{
+    display: block;
+    color: white;
+    font-size: 1rem;
+    margin-top: 20px;  
+}
+.contact .panel3 a{
+    display: block;
+    color: white;
+    font-size: 1rem;
+    margin-top: 20px;  
+}
+.contact .panel4 a{
+    display: block;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.contact .panel1 p{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.s1{
+    color: white;
+    font-size: 1rem;
+    font-weight: 10px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 122.67px;
+    height: 32px;
+    background:transparent;
+    border: 1px solid #fff;
+    margin-left: 2px;
+    margin-top: 25px;
+}
+.panel1 p{
+    color: #303030c7;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
